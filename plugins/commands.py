@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @Mr_D_P!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @its_simple1!"
 HELP = """
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -36,12 +36,12 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/Mr_D_P'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/Anganavadi_Chat'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/iplstreamlivee'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/neetjeestars'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/Anganavadi_chat'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/Mr-dark-prince/Vc-Radio'),
+        InlineKeyboardButton('MORE BOTS', url='https://t.me/neetjeestars'),
+        InlineKeyboardButton('SOURCE CODE', url='https://github.com/sandy1709/catuserbot'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
