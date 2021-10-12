@@ -28,7 +28,7 @@ HELP = """
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: @its_simple1** 👑
 """
 
 
@@ -44,7 +44,7 @@ async def start(client, message):
         InlineKeyboardButton('SOURCE CODE', url='https://github.com/sandy1709/catuserbot'),
     ],
     [
-        InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
+        InlineKeyboardButton(' 🇩‌🆄🇩‌🇪 ', callback_data='help'),
         
     ]
     ]
