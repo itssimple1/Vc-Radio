@@ -1,7 +1,7 @@
 # VC-RADIO
 Telegram Voice Chat Radio Player
 
-![logo](https://telegra.ph/file/887ac377ec6120bae2f0f.jpg)
+![logo](https://telegra.ph/file/6cde2ecd5aee156efb7f8.jpg)
 
 ## How To Host
 The easiest way to deploy this Bot
