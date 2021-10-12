@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @its_simple1!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Music🎶Player Bot** \nI Can Stream Music In Channels & Groups . Made with ❤️ By @its_simple1!"
 HELP = """
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
