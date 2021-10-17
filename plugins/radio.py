@@ -11,7 +11,7 @@ async def radio(client, message: Message):
         await message.reply_text("**Please Stop Existing Radio Stream /stopradio !**")
         return
     await mp.start_radio()
-    await message.reply_text(f"**Started Radio:** Enjoy)
+    await message.reply_text(f"**Started Radio:** <code>{CHAT}</code>")
 
 @Client.on_message(filters.command("stopradio") & filters.user(ADMINS))
 async def stop(_, message: Message):
